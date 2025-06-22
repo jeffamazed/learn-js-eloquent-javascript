@@ -1,0 +1,10 @@
+{
+  "name": "public-space-on-the-web",
+  "version": "1.0.0",
+  "description": "A public editable web space server with live file editing.",
+  "main": "server.js",
+  "type": "module",
+  "dependencies": {
+    "mime-types": "^3.0.1"
+  }
+}

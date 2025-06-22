@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0d1117;
+  color: #c9d1d9;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0;
+  gap: 50px;
+  font-family: "Fira Code", monospace;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  gap: 15px;
+  width: 100%;
+  margin: 0 10px;
+}
+
+select,
+textarea,
+input,
+button {
+  font-size: 16px;
+  padding: 5px;
+  background-color: #161b22;
+  color: #c9d1d9;
+  border: none;
+  font-family: "Fira Code", monospace;
+}
+
+select:focus,
+textarea:focus,
+input:focus,
+button:focus {
+  outline: 1px solid #238636;
+}
+
+textarea {
+  min-height: 300px;
+  max-width: 100%;
+}
+
+button {
+  min-height: 40px;
+}
+
+button:hover {
+  background-color: #238636;
+  color: #ffffff;
+  cursor: pointer;
+}

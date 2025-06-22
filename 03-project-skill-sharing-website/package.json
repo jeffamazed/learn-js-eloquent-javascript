@@ -1,0 +1,12 @@
+{
+  "name": "skillsharing-project",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "skillsharing_server.js",
+  "scripts": {
+    "start": "node skillsharing_server.js"
+  },
+  "dependencies": {
+    "serve-static": "^2.2.0"
+  }
+}
